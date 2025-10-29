@@ -1,0 +1,44 @@
+.cabecalho-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cabecalho-logo h1 {
+  font-size: 1.5rem; 
+  font-weight: 700;
+  color: #1a202c; 
+  margin: 0;
+}
+
+.pageButton {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4a5568; 
+  background-color: transparent;
+  border: none;
+  padding: 10px 16px;
+  margin-left: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.pageButton:hover {
+  background-color: #f8f9fa; 
+  color: #007bff; 
+}
+
+.pageButton.active {
+  color: #007bff; 
+  box-shadow: inset 0 -2px 0 #007bff; 
+}

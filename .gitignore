@@ -1,0 +1,21 @@
+# Diretórios de Dependências e Ambientes Virtuais
+/backend/venv
+/frontend/node_modules
+
+# Arquivos de Cache e Compilação
+# Python
+**/*.pyc
+**/__pycache__
+# Node/Vite
+/frontend/dist
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de Configuração Local e Variáveis de Ambiente
+.DS_Store
+.env
+.vscode/
+
+# Arquivos de Lock (Opcional, mas recomendado se você já removeu o package-lock.json)
+package-lock.json
