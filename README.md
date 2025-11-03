@@ -25,8 +25,8 @@ Certifique-se de ter o **Docker** e o **Docker Compose** instalados em sua máqu
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO>
-    cd nola
+    git clone https://github.com/Rinosifterino/ProjetoNOLA.git
+    cd ProjetoNOLA
     ```
 
 2.  **Configurar e Iniciar os Serviços:**
