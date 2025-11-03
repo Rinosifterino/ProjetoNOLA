@@ -76,7 +76,7 @@ Você precisará de uma instância do PostgreSQL rodando. A forma mais fácil é
     python -m venv venv
     source venv/bin/activate  # Linux/macOS
     # ou
-    .venv\Scripts\activate   # Windows
+    venv\Scripts\activate   # Windows
     ```
 3.  Instale as dependências:
     ```bash
