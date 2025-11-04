@@ -90,13 +90,9 @@ docker compose exec postgres psql -U challenge challenge_db -c 'SELECT COUNT(*) 
 
 ## 💻 Como Rodar Localmente (Desenvolvimento)
 
-Se você preferir rodar o Frontend e o Backend separadamente para desenvolvimento, siga os passos abaixo.
-
 ### 1. Configuração do Banco de Dados
 
-Você precisará de uma instância do PostgreSQL rodando. A forma mais fácil é usar o serviço de banco de dados do Docker Compose:
-
-1.  Inicie apenas o serviço de banco de dados:
+1.  Inicie o serviço de banco de dados:
     ```bash
     docker-compose up -d postgres
     ```
