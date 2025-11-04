@@ -25,8 +25,8 @@ Certifique-se de ter o **Docker** e o **Docker Compose** instalados em sua máqu
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO>
-    cd nola
+    git clone https://github.com/Rinosifterino/ProjetoNOLA.git
+    cd ProjetoNOLA
     ```
 
 2.  **Configurar e Iniciar os Serviços:**
@@ -76,7 +76,7 @@ Você precisará de uma instância do PostgreSQL rodando. A forma mais fácil é
     python -m venv venv
     source venv/bin/activate  # Linux/macOS
     # ou
-    # venv\Scripts\activate   # Windows
+    venv\Scripts\activate   # Windows
     ```
 3.  Instale as dependências:
     ```bash
