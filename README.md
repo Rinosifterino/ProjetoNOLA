@@ -116,7 +116,7 @@ docker compose exec postgres psql -U challenge challenge_db -c 'SELECT COUNT(*) 
     ```bash
     cd backend
     ```
-2.  Crie e ative um ambiente virtual (recomendado):
+2.  Crie e ative um ambiente virtual:
     ```bash
     python -m venv venv
     source venv/bin/activate  # Linux/macOS
