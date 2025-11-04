@@ -56,7 +56,7 @@ Você precisará de uma instância do PostgreSQL rodando. A forma mais fácil é
 
 1.  Inicie apenas o serviço de banco de dados:
     ```bash
-    docker-compose up -d db
+    docker-compose up -d postgres
     ```
 2.  Execute o script SQL para criar o esquema (assumindo que você tem o `psql` instalado ou está usando um cliente):
     ```bash
