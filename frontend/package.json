@@ -15,7 +15,8 @@
     "react-csv": "^2.2.2",
     "react-dom": "^19.1.1",
     "react-intersection-observer": "^10.0.0",
-    "recharts": "^3.3.0"
+    "recharts": "^3.3.0",
+    "prop-types": "15.8.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
