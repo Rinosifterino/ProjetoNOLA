@@ -88,7 +88,7 @@ docker compose exec postgres psql -U challenge challenge_db -c 'SELECT COUNT(*) 
 
 ---
 
-## 💻 Como Rodar Localmente (Desenvolvimento)
+## 💻 Como Rodar Localmente
 
 ### 1. Configuração do Banco de Dados
 
